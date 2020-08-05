@@ -1,0 +1,43 @@
+#header-nav {
+	background-color: #6666ff;
+	height: 75px;
+	position: relative;
+}
+
+.navbar-header .navbar-brand h1 {
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+#nav-list {
+	text-align: center;
+	margin-top: 22px;
+	background-color: #b3b3ff;
+	opacity: .7;
+}
+
+#main {
+	margin: 100px 10px 10px 10px;
+	width: auto;
+}
+
+#main .text {
+	height: 1000px;
+	background-color: #e6e6ff;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+#nav-list a {
+	color: white;
+}
+
+@media (max-width: 767px) {
+	.navbar-header .navbar-brand h1 {
+		font-size: 5vw;
+	}
+
+
+}
