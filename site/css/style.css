@@ -11,6 +11,10 @@
 	left: 10px;
 }
 
+.navbar-header .navbar-toggle {
+	background-color: white;
+}
+
 #nav-list {
 	text-align: center;
 	margin-top: 22px;
